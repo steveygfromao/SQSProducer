@@ -5,7 +5,7 @@ Send message to SQS
 Simple C# console app to send a message to a defined SQS url.  
 
 # Usage
-You need to set up a AWS SQS.  Copy its URL and add to the queueUrl in the source file (SQSProducer.cs)
+You will need to set up an AWS SQS.  Copy its URL and add to the queueUrl in the source file (SQSProducer.cs)
 
-You will also need to provide your AWS credentials in the source file (access key, secret key, region)
+You will also need to provide your AWS credentials in the source file SQSProducer.cs (access key, secret key, region). For obvious reasons I cannot put mine in there.
 
